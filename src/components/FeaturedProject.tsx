@@ -6,51 +6,58 @@ const projects = [
     title: 'E-commerce Platform - Live Project',
     description: 'Full-featured online store with payment integration',
     tech: ['CMS', 'Hostinger', 'MySql'],
-    icon: Globe
+    icon: Globe,
+    link: 'https://your-ecommerce-platform-link.com'
   },
   {
     title: 'E-Learning(LMS) - Live Project',
     description: 'LMS with learning & MockTest',
     tech: ['PHP', 'MySQL', 'Bootstrap'],
-    icon: Globe
+    icon: Globe,
+    link: 'https://your-elearning-lms-link.com'
   },
   {
     title: 'TaskTuner',
     description: 'Day-to-day unitility application(To-Do, Calculator,Converter',
     tech: ['React Native', 'Rapid API', 'Async Storage'],
-    icon: Database
+    icon: Database,
+    link: 'https://your-tasktuner-link.com'
   },
-    {
+  {
     title: 'File Sharing',
     description: 'Supabase for Temporary file transfer',
     tech: ['Supabase', 'Vite', 'React'],
-    icon: Globe
+    icon: Globe,
+    link: 'https://your-filesharing-link.com'
   },
-    {
+  {
     title: 'HealConnect',
     description: 'PWA webapp for online medical checkup application',
     tech: ['React', 'Jitsi API', 'Firebase'],
-    icon: Globe
+    icon: Globe,
+    link: 'https://your-healconnect-link.com'
   },
-    {
+  {
     title: 'Cast- Certificate Generator(Riplica: Backward Classes Welfare Department)',
     description: 'For Caste Certificate Application',
     tech: ['PHP', 'FPDF', 'MySQL'],
-    icon: Code
+    icon: Code,
+    link: 'https://your-cast-certificate-link.com'
   },
-      {
+  {
     title: 'Hide PASSWORD',
     description: 'Hide Password in PHOTO',
     tech: ['Python', 'Tinker', 'SQL'],
-    icon: Code
+    icon: Code,
+    link: 'https://your-hide-password-link.com'
   },
-    {
+  {
     title: 'PHP_CURD',
     description: 'Create-Read-Update-Delete with Dashboard in PHP',
     tech: ['PHP', 'MySQL', 'InfinityFree'],
-    icon: Code
+    icon: Code,
+    link: 'https://your-php-curd-link.com'
   },
-
 ];
 
 const FeaturedProject: React.FC = () => (
@@ -59,7 +66,7 @@ const FeaturedProject: React.FC = () => (
       <div className="text-center mb-16">
         <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">
             Featured <span className="bg-gradient-to-r from-blue-400 to-purple-600 bg-clip-text text-transparent">Projects</span>
-          </h2>
+        </h2>
         <p className="text-xl text-gray-300 max-w-3xl mx-auto">
           A selection of my highlighted work, showcasing a range of technologies and solutions.
         </p>
@@ -89,22 +96,34 @@ const FeaturedProject: React.FC = () => (
                   </span>
                 ))}
               </div>
-              <button className="flex items-center text-blue-400 hover:text-blue-300 transition-colors text-sm group">
-                <span>View Project</span>
-                <ExternalLink size={14} className="ml-1 group-hover:translate-x-1 transition-transform" />
-              </button>
+              {project.link ? (
+                <a
+                  href={project.link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center text-blue-400 hover:text-blue-300 transition-colors text-sm group"
+                >
+                  <span>View Project</span>
+                  <ExternalLink size={14} className="ml-1 group-hover:translate-x-1 transition-transform" />
+                </a>
+              ) : (
+                <button className="flex items-center text-blue-400 hover:text-blue-300 transition-colors text-sm group" disabled>
+                  <span>View Project</span>
+                  <ExternalLink size={14} className="ml-1 group-hover:translate-x-1 transition-transform" />
+                </button>
+              )}
             </div>
           );
         })}
 
-         {/* Call to Action */}
-            <div className="bg-gradient-to-br from-blue-500/10 to-purple-500/10 backdrop-blur-sm border border-blue-400/30 rounded-xl p-6 text-center">
-              <h4 className="text-lg font-semibold text-white mb-2">Interested in my work?</h4>
-              <p className="text-gray-300 text-sm mb-4">Let's discuss your next project</p>
-              <a href='tel:6296285182'><button className="px-6 py-2 bg-gradient-to-r from-blue-500 to-purple-600 text-white rounded-full text-sm font-semibold hover:scale-105 transition-transform">
-                Get In Touch
-              </button></a>
-            </div>
+        {/* Call to Action */}
+        <div className="bg-gradient-to-br from-blue-500/10 to-purple-500/10 backdrop-blur-sm border border-blue-400/30 rounded-xl p-6 text-center">
+          <h4 className="text-lg font-semibold text-white mb-2">Interested in my work?</h4>
+          <p className="text-gray-300 text-sm mb-4">Let's discuss your next project</p>
+          <a href='tel:6296285182'><button className="px-6 py-2 bg-gradient-to-r from-blue-500 to-purple-600 text-white rounded-full text-sm font-semibold hover:scale-105 transition-transform">
+            Get In Touch
+          </button></a>
+        </div>
       </div>
     </div>
   </section>
