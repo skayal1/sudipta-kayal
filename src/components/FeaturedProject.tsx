@@ -7,56 +7,56 @@ const projects = [
     description: 'Full-featured online store with payment integration',
     tech: ['CMS', 'Hostinger', 'MySql'],
     icon: Globe,
-    link: 'https://your-ecommerce-platform-link.com'
+    link: 'https://collegestreetbook.in'
   },
   {
     title: 'E-Learning(LMS) - Live Project',
     description: 'LMS with learning & MockTest',
     tech: ['PHP', 'MySQL', 'Bootstrap'],
     icon: Globe,
-    link: 'https://your-elearning-lms-link.com'
+    link: 'https://nightingalepsc.in/'
   },
   {
     title: 'TaskTuner',
     description: 'Day-to-day unitility application(To-Do, Calculator,Converter',
     tech: ['React Native', 'Rapid API', 'Async Storage'],
     icon: Database,
-    link: 'https://your-tasktuner-link.com'
+    link: 'https://tasktuner.en.uptodown.com/android'
   },
   {
     title: 'File Sharing',
     description: 'Supabase for Temporary file transfer',
     tech: ['Supabase', 'Vite', 'React'],
     icon: Globe,
-    link: 'https://your-filesharing-link.com'
+    link: 'https://tempfileshare.vercel.app/'
   },
   {
     title: 'HealConnect',
     description: 'PWA webapp for online medical checkup application',
     tech: ['React', 'Jitsi API', 'Firebase'],
     icon: Globe,
-    link: 'https://your-healconnect-link.com'
+    link: 'https://heal-connect-phi.vercel.app/'
   },
   {
     title: 'Cast- Certificate Generator(Riplica: Backward Classes Welfare Department)',
     description: 'For Caste Certificate Application',
     tech: ['PHP', 'FPDF', 'MySQL'],
     icon: Code,
-    link: 'https://your-cast-certificate-link.com'
+    link: 'https://github.com/skayal1/Caste_Certificate_Application_Management'
   },
   {
     title: 'Hide PASSWORD',
     description: 'Hide Password in PHOTO',
     tech: ['Python', 'Tinker', 'SQL'],
     icon: Code,
-    link: 'https://your-hide-password-link.com'
+    link: 'https://github.com/skayal1/Hide-text-in-photo-app'
   },
   {
     title: 'PHP_CURD',
     description: 'Create-Read-Update-Delete with Dashboard in PHP',
     tech: ['PHP', 'MySQL', 'InfinityFree'],
     icon: Code,
-    link: 'https://your-php-curd-link.com'
+    link: 'https://github.com/skayal1/PHP_curd'
   },
 ];
 
