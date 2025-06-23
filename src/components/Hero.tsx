@@ -51,7 +51,7 @@ const Hero: React.FC = () => {
             </button></a>
             <a href="tel:6296285182"><button className="group px-10 py-4 border-2 border-blue-400 text-blue-400 rounded-full font-semibold transition-all duration-300 hover:bg-blue-400 hover:text-white flex items-center space-x-3">
               <PhoneCall size={22} />
-              <span>Get In Touch</span>
+              <span>Call For New Project</span>
             </button></a>
           </div>
 
