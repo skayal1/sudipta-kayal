@@ -1,5 +1,5 @@
 import React from 'react';
-import { ChevronDown, Download, Github, Linkedin, Mail } from 'lucide-react';
+import { ChevronDown, Download, Github, Linkedin, Mail, PhoneCall } from 'lucide-react';
 
 const Hero: React.FC = () => {
   return (
@@ -49,10 +49,10 @@ const Hero: React.FC = () => {
               <Download size={22} />
               <span>Download CV</span>
             </button></a>
-            <button className="group px-10 py-4 border-2 border-blue-400 text-blue-400 rounded-full font-semibold transition-all duration-300 hover:bg-blue-400 hover:text-white flex items-center space-x-3">
-              <Mail size={22} />
+            <a href="tel:6296285182"><button className="group px-10 py-4 border-2 border-blue-400 text-blue-400 rounded-full font-semibold transition-all duration-300 hover:bg-blue-400 hover:text-white flex items-center space-x-3">
+              <PhoneCall size={22} />
               <span>Get In Touch</span>
-            </button>
+            </button></a>
           </div>
 
           {/* Social Links */}
