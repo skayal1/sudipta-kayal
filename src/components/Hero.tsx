@@ -30,10 +30,10 @@ const Hero: React.FC = () => {
         <div className="animate-fade-in-up delay-200">
           <h1 className="text-5xl md:text-7xl font-bold mb-8">
             <span className="bg-gradient-to-r from-blue-400 via-purple-500 to-blue-600 bg-clip-text text-transparent">
-              Full Stack
+              Sudipta Kayal
             </span>
             <br />
-            <span className="text-white">Developer</span>
+            <span className="text-white">IT Professional</span>
           </h1>
           
           <p className="text-xl md:text-2xl text-gray-300 mb-10 max-w-3xl mx-auto leading-relaxed">
