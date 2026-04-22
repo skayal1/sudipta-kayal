@@ -19,17 +19,13 @@ const Skills: React.FC = () => {
     // Backend
     { name: 'Python', level: 85, category: 'Backend' },
     { name: 'PHP', level: 82, category: 'Backend' },
-    { name: 'ASP.NET', level: 75, category: 'Backend' },
-    { name: 'Node.js', level: 78, category: 'Backend' },
     
     // Database
     { name: 'SQL', level: 88, category: 'Database' },
-    { name: 'MongoDB', level: 82, category: 'Database' },
-    { name: 'Firebase', level: 80, category: 'Database' },
+    { name: 'FirebaseDB', level: 80, category: 'Database' },
     
     // Platforms
     { name: 'WordPress', level: 85, category: 'CMS' },
-    { name: 'Shopify', level: 78, category: 'E-commerce' },
   ];
 
   const categories = [
