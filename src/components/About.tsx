@@ -10,7 +10,7 @@ const About: React.FC = () => {
             About <span className="bg-gradient-to-r from-blue-400 to-purple-600 bg-clip-text text-transparent">Me</span>
           </h2>
           <p className="text-xl text-gray-300 max-w-3xl mx-auto">
-            Passionate full-stack developer with strong academic background and expertise in modern technologies
+            Passionate about web & IT solutions with strong academic background and expertise in modern technologies
           </p>
         </div>
 
